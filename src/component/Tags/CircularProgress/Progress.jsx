@@ -21,7 +21,8 @@ export default function Progress() {
 const OuterLine = styled.div`
       width: 42rem;
     height: 42rem;
-background: conic-gradient( ${props => props.theme.colors.primary} ${({ progress }) => progress}%,transparent ${({ progress }) => progress}%   );
+    background: conic-gradient( ${props => props.theme.colors.primary} ${({ progress }) => progress}%,transparent ${({ progress }) => progress}%   );
+    transition   :background  ease;
     display: grid;
     place-items: center;
     border-radius: 50%;
