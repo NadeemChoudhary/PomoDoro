@@ -17,15 +17,15 @@ const {  setWorkTime, setBreakTime , setLongTime} = useContext(StateContext)
                 <Modalbody>
                     <WorkingTime>
                         <p>Work Time</p>
-                        <Input type="text" onChange={(e) => {setWorkTime(e.target.value * 60)}}/>
+                        <Input type="number" onChange={(e) => {setWorkTime(e.target.value * 60)}}/>
                     </WorkingTime>
                     <ShortBreak>
                         <p>Short Break</p>
-                        <Input type="text" onChange={(e) => {setBreakTime(e.target.value * 60)}}/>
+                        <Input type="number" onChange={(e) => {setBreakTime(e.target.value * 60)}}/>
                     </ShortBreak>
                     <LongBreak>
                         <p>Long Break</p>
-                        <Input type="text" onChange={(e) => {setLongTime(e.target.value * 60)}}/>
+                        <Input type="number" onChange={(e) => {setLongTime(e.target.value * 60)}}/>
                     </LongBreak>
                     <ModelFooter>
                         <ApplyBtn  onClick={Onclose}>Cancel</ApplyBtn>
