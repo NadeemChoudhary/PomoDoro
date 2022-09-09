@@ -45,15 +45,16 @@ const ClockContainer = styled.div`
 
 `
 const ClockTime = styled.h3`
-    color: white;
-    font-size: 10rem;
+    color: rgb(255, 255, 255);
+    font-size: 8rem;
     letter-spacing: 1px;
     `
 const ClockButton = styled.button`
     all: unset;
-    font-size: 3rem;
+    font-size: 2rem;
     letter-spacing: 13px;
     color: white;
+margin-top: 1rem;
     `
 const ResetButton = styled(ClockButton)`
         font-size: 2rem;

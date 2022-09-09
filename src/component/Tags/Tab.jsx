@@ -23,14 +23,14 @@ const Tab = () => {
 export default Tab
 const TabContainer = styled.div`
   background-color: ${props => props.theme.colors.secondary};
-  height: 6rem;
-  width: 45rem;
+  height: 5rem;
+  width: 40rem;
   margin: 0 auto;
   display: flex;
   gap: 1rem;
   border-radius: 5rem;
   align-items: center;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
 
 `
 const Tabs = styled.div`
@@ -40,11 +40,12 @@ const Tabs = styled.div`
         align-items: center;
         text-align: center;
         justify-content: center;
-        height: 4rem;
+        height: 3rem;
         border-radius: 5rem;
         margin: 0 1rem;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: white;
+        padding: 0.2rem 0;
      
         &:hover{
             background-color: ${props => props.theme.colors.primary};

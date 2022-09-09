@@ -19,8 +19,8 @@ export default function Progress() {
 }
 
 const OuterLine = styled.div`
-      width: 42rem;
-    height: 42rem;
+      width: 35rem;
+    height: 35rem;
     background: conic-gradient( ${props => props.theme.colors.primary} ${({ progress }) => progress}%,transparent ${({ progress }) => progress}%   );
     transition   :background  ease;
     display: grid;
@@ -29,8 +29,8 @@ const OuterLine = styled.div`
     
 `
 const InnerLine = styled.div`
-      width:40rem;
-    height:40rem;
+      width:33rem;
+    height:33rem;
     background-color: #0c0111;
     display: grid;
     place-items : centers;
